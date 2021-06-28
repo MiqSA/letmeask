@@ -3,6 +3,12 @@
   align-items: stretch;
   height: 100vh;
 
+  &.dark{
+    background: rgb(96, 94, 94);
+  }
+
+  
+
   aside {
     flex: 7;
 
@@ -87,6 +93,15 @@
       a {
         color: #e559f9;
       }
+    }
+    .theme-button{
+      border-radius: 8px;
+      font-weight: 500;
+      background: #412f77;
+      color: #FFF;
+      padding: 10px 32px;
+      cursor: pointer;
+    
     }
   }
 
